@@ -6,4 +6,7 @@ Run `decode_ztrack_data.py` to run decoding.
 Run `classify_ztrack_data.py` to try replay classification.
 
 ## Requirements
-I've added a conda environment file to the repository: `analysis_env.yml`. This should be sufficient to run the code.
+I've added a conda environment file to the repository: `analysis_env.yml`. Create using 
+<pre>
+  conda env create --file=analysis_env.yaml
+</pre>
